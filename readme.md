@@ -8,7 +8,7 @@ y este repositorio servira para dos cosas:
 
 ### Evaluacion
 
- - Taras __50%__
+ - [Tareas](./Tareas/) __50%__
  - Proyecto Final __20%__
  - Quizzes y examenes __30%__
 
@@ -20,15 +20,20 @@ Objetivos del proyecto actual
 ## Requerimientos
 
 Para este curso se pidió que se instalara `OpenGL >= 3.1` en mi caso lo instale junto con el _wrapper_ de _python3_ con 
-```
-pip3 install moderngl
+```console
+user@host:~/path/GC$ pip3 install moderngl
 ```
 Y tratare de que todas las tareas, trabajos y proyectos de codigo se corran bajo un _virtualenv_, este tiene los paquetes especificados en el archivo de
 [requerimientos](./requerimientos.txt)
 
 ### Test
 
-Una vez instalado, se probo utilizando los ejemplos del codigo de 
+Una vez instalado, se verifico la version existente de _OpenGL_ con
+```console
+user@host:~/path/GC$ glxinfo | grep "OpenGL version"
+OpenGL version string: 4.6 (Compatibility Profile) Mesa 20.0.8
+```
+y se probo la instalacion usando los ejemplos del codigo de 
 [GitHub](https://github.com/moderngl/moderngl)
 
 
@@ -41,7 +46,7 @@ Para actividades institucionales, el uso del material, que sea de mi autoria, qu
 de la __Universidad de Guanajuato__. Para cualquier _otro proposito_ este repositorio queda bajo 
 [Mit License](./LICENSE)
 
-### Desarroladores
+### Autores
 - [Benjamin Rivera][sitioBench]
 
 
