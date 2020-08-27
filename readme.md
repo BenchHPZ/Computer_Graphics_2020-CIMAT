@@ -8,7 +8,7 @@ y este repositorio servira para dos cosas:
 
 ### Evaluacion
 
- - [Tareas](./Tareas/) __50%__
+ - [Tareas](./Tareas/Tareas.md) __50%__
  - Proyecto Final __20%__
  - Quizzes y examenes __30%__
 

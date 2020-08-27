@@ -87,3 +87,11 @@ $ g++ T1-2-BRC-GLEW.cpp -lglfw -lGL -lGLEW -o T1-2-BRC
 
 <img src="assets/T1-2-BRC.png" alt="Prueba final" width="900"/>
 
+
+## Extra
+
+Por ultimo trataremos de realizar el mismo codigo mediante las librerias de __Python__ correspondientes. 
+
+__GLFW__ si tienene su implementacion correspondiente en __Python__, y las funciones tienen el mismo nombre. Los codigos se trasladaron exitosamente [aqui ](T1-0-BRC-GLFW.py)
+
+Respecto a __GLEW__ unicamente hay un paquete que unicamente esta disponible para __Python 2__; sin embargo, es posible usar __modern OpenGL__ con su respectiva libreria.
